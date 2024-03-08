@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  my-static-website:
+    image: my-static-website:latest
+    ports:
+      - "8080:80"
